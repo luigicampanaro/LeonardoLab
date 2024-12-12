@@ -7,17 +7,7 @@ permalink: /manifesto
 # Empty for now
 
 <details>
-  <summary>Click to expand</summary>
-  <p>This is the content of the dropdown window.</p>
-  <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-  </ul>
-</details>
-
-<details>
-  <summary style="cursor: pointer; text-decoration: underline;">Click to expand</summary>
+  <summary><u>Click to expand</u> ▼</summary>
   <p>This is the content of the dropdown window.</p>
   <ul>
     <li>Item 1</li>
