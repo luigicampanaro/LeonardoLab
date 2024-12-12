@@ -16,8 +16,8 @@ permalink: /manifesto
   </ul>
 </details>
 
-<details id="my-details">
-  <summary><a href="#" onclick="document.getElementById('my-details').open =!document.getElementById('my-details').open; return false;">Click to expand</a></summary>
+<details>
+  <summary style="cursor: pointer; text-decoration: underline;">Click to expand</summary>
   <p>This is the content of the dropdown window.</p>
   <ul>
     <li>Item 1</li>
