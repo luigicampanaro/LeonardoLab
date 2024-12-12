@@ -1,3 +1,9 @@
+header_pages:
+  - index.md
+  - manifesto.md
+
 remote_theme: b2a3e8/jekyll-theme-console
 
 style: hacker
+
+footer: 'join our <a href="https://discord.com/">Discord</a> server'
