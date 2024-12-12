@@ -7,7 +7,7 @@ permalink: /manifesto
 # Empty for now
 
 <details>
-  <summary><button>Click to expand</button></summary>
+  <summary>Click to expand</summary>
   <p>This is the content of the dropdown window.</p>
   <ul>
     <li>Item 1</li>
@@ -16,18 +16,8 @@ permalink: /manifesto
   </ul>
 </details>
 
-<details>
-  <summary><a href="#">Click to expand</a></summary>
-  <p>This is the content of the dropdown window.</p>
-  <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-  </ul>
-</details>
-
-<details>
-  <summary><span class="clickable">Click to expand</span></summary>
+<details id="my-details">
+  <summary><a href="#" onclick="document.getElementById('my-details').open =!document.getElementById('my-details').open; return false;">Click to expand</a></summary>
   <p>This is the content of the dropdown window.</p>
   <ul>
     <li>Item 1</li>
